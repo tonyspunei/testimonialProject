@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  height: 50px;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/img/background-img.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* TITLE */
+.title {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title > h2 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.title > h1 {
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Content Box */
+.content-box {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box .btn {
+  filter: brightness(1.6);
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+/* Content Container */
+.content-wrapper {
+  height: 90%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.content-wrapper > .profile-img {
+  background: url(/img/testimonial-1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  height: 11rem;
+  width: 11rem;
+  position: fixed;
+  top: 20rem;
+}
+
+.content-wrapper > .name {
+  font-size: 2.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin: 6rem 0 2rem 0;
+}
+
+.content-wrapper > .stars {
+  height: 30px;
+}
+
+.content-wrapper > .text {
+  margin: 2rem 0;
+  height: 30%;
+  width: 80%;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  line-height: 2.3rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.content-wrapper > .quote-icon {
+  margin: 1rem 0;
+  filter: brightness(1.6);
+}
